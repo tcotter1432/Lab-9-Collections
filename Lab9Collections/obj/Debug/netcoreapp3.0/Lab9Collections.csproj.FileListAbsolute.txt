@@ -1,0 +1,11 @@
+C:\Users\Tristan\Documents\BootCamp\Lab9Collections\Lab9Collections\bin\Debug\netcoreapp3.0\Lab9Collections.exe
+C:\Users\Tristan\Documents\BootCamp\Lab9Collections\Lab9Collections\bin\Debug\netcoreapp3.0\Lab9Collections.deps.json
+C:\Users\Tristan\Documents\BootCamp\Lab9Collections\Lab9Collections\bin\Debug\netcoreapp3.0\Lab9Collections.runtimeconfig.json
+C:\Users\Tristan\Documents\BootCamp\Lab9Collections\Lab9Collections\bin\Debug\netcoreapp3.0\Lab9Collections.runtimeconfig.dev.json
+C:\Users\Tristan\Documents\BootCamp\Lab9Collections\Lab9Collections\bin\Debug\netcoreapp3.0\Lab9Collections.dll
+C:\Users\Tristan\Documents\BootCamp\Lab9Collections\Lab9Collections\bin\Debug\netcoreapp3.0\Lab9Collections.pdb
+C:\Users\Tristan\Documents\BootCamp\Lab9Collections\Lab9Collections\obj\Debug\netcoreapp3.0\Lab9Collections.csprojAssemblyReference.cache
+C:\Users\Tristan\Documents\BootCamp\Lab9Collections\Lab9Collections\obj\Debug\netcoreapp3.0\Lab9Collections.AssemblyInfoInputs.cache
+C:\Users\Tristan\Documents\BootCamp\Lab9Collections\Lab9Collections\obj\Debug\netcoreapp3.0\Lab9Collections.AssemblyInfo.cs
+C:\Users\Tristan\Documents\BootCamp\Lab9Collections\Lab9Collections\obj\Debug\netcoreapp3.0\Lab9Collections.dll
+C:\Users\Tristan\Documents\BootCamp\Lab9Collections\Lab9Collections\obj\Debug\netcoreapp3.0\Lab9Collections.pdb
