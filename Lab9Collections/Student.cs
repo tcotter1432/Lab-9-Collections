@@ -7,14 +7,15 @@ namespace Lab9Collections
     //Student Class
     class Student
     {
-        //Class Variables
+        #region Fields
         private string name;
         private string favoriteWeapon;
         private string homeWorld;
         private string bestFriend;
         private string mortalEnemy;
         private string funFact;
-
+        #endregion
+        #region Properties
         public string Name
         {
             get { return name; }
@@ -45,6 +46,7 @@ namespace Lab9Collections
             get { return funFact; }
             set { funFact = value; }
         }
+        #endregion
 
         //Constructor
         public Student(string iName, string iFavoriteWeapon, string iHomeWorld, string iBestFriend, string iMortalEnemy, string iFunFact)

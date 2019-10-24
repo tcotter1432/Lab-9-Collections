@@ -156,7 +156,7 @@ namespace Lab9Collections
             cSharpClass.Add(new Student("The Emperor of Mankind", "the Legiones Astartes", "Holy Terra", "N/A", "Horus", "The Golden Throne uses C# to run."));
             cSharpClass.Add(new Student("Chuck Norris", "a Roundhouse Kick", "Earth", "God", "no one living", "He already knows everything about C#."));
             cSharpClass.Add(new Student("Ganondorf", "a Giant Sword", "Hyrule", "N/A", "Link", "He spends most, if not all, of class giving withering glares towards Zelda and Link."));
-            cSharpClass.Add(new Student("Princess Zelda", "a Bow of Light", "Hyrule","Link","Gannondorf", "She's always sitting on the far side of Link from Gannondorf for some reason."));
+            cSharpClass.Add(new Student("Princess Zelda", "a Bow of Light", "Hyrule","Link","Gannondorf", "She's always sitting next to Link on the far side from Gannondorf for some reason."));
             cSharpClass.Add(new Student("Female Corrin", "the Yato", "Valla", "Silas", "Anankanos", "She's confused as to why there's a male version of herself."));
         }
     }
