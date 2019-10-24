@@ -73,23 +73,23 @@ namespace Lab9Collections
                     while (onStudent)
                     {
                         
-                        Console.WriteLine($"What would you like to know about {cSharpClass[inputInt-1].GetName()}? \n 1. Favorite Weapon\n 2. Home World\n 3. Best Friend\n 4. Mortal Enemy\n 5. Fun Fact\n 6. Go Back");
+                        Console.WriteLine($"What would you like to know about {cSharpClass[inputInt-1].Name}? \n 1. Favorite Weapon\n 2. Home World\n 3. Best Friend\n 4. Mortal Enemy\n 5. Fun Fact\n 6. Go Back");
                         switch (Console.ReadLine())
                         {
                             case ("1"):
-                                Console.WriteLine($"{cSharpClass[inputInt - 1].GetName()}'s favorite weapon is {cSharpClass[inputInt - 1].GetFavoriteWeapon()}!");
+                                Console.WriteLine($"{cSharpClass[inputInt - 1].Name}'s favorite weapon is {cSharpClass[inputInt - 1].FavoriteWeapon}!");
                             break;
                             case ("2"):
-                                Console.WriteLine($"{cSharpClass[inputInt - 1].GetName()}'s home world is {cSharpClass[inputInt - 1].GetHomeWorld()}!");
+                                Console.WriteLine($"{cSharpClass[inputInt - 1].Name}'s home world is {cSharpClass[inputInt - 1].HomeWorld}!");
                             break;
                             case ("3"):
-                                Console.WriteLine($"{cSharpClass[inputInt - 1].GetName()}'s best friend is {cSharpClass[inputInt - 1].GetBestFriend()}!");
+                                Console.WriteLine($"{cSharpClass[inputInt - 1].Name}'s best friend is {cSharpClass[inputInt - 1].BestFriend}!");
                             break;
                             case ("4"):
-                                Console.WriteLine($"{cSharpClass[inputInt - 1].GetName()}'s mortal enemy is {cSharpClass[inputInt - 1].GetMortalEnemy()}!");
+                                Console.WriteLine($"{cSharpClass[inputInt - 1].Name}'s mortal enemy is {cSharpClass[inputInt - 1].MortalEnemy}!");
                             break;
                             case ("5"):
-                                Console.WriteLine(cSharpClass[inputInt - 1].GetFunFact());
+                                Console.WriteLine(cSharpClass[inputInt - 1].FunFact);
                             break;
                             case ("6"):
                                 onStudent = false;
@@ -108,7 +108,7 @@ namespace Lab9Collections
         {
             for(int i = 0; i < cSharpClass.Count; i++)
             {
-                Console.WriteLine($"{i + 1}. {cSharpClass[i].GetName()}");
+                Console.WriteLine($"{i + 1}. {cSharpClass[i].Name}");
             }
         }
 
@@ -157,62 +157,7 @@ namespace Lab9Collections
             cSharpClass.Add(new Student("Chuck Norris", "a Roundhouse Kick", "Earth", "God", "no one living", "He already knows everything about C#."));
             cSharpClass.Add(new Student("Ganondorf", "a Giant Sword", "Hyrule", "N/A", "Link", "He spends most, if not all, of class giving withering glares towards Zelda and Link."));
             cSharpClass.Add(new Student("Princess Zelda", "a Bow of Light", "Hyrule","Link","Gannondorf", "She's always sitting on the far side of Link from Gannondorf for some reason."));
-            cSharpClass.Add(new Student("Female Corrin", "the Yato", "Valla", "Silas", "Anankanos", "She's confused as to why there's a male version of herself as well."));
-
-        }
-    }
-
-    //Student Class
-    class Student
-    {
-        //Class Variables
-        string name;
-        string favoriteWeapon;
-        string homeWorld;
-        string bestFriend;
-        string mortalEnemy;
-        string funFact;
-
-        //Constructor
-        public Student(string iName, string iFavoriteWeapon, string iHomeWorld, string iBestFriend, string iMortalEnemy, string iFunFact)
-        {
-            name = iName;
-            favoriteWeapon = iFavoriteWeapon;
-            homeWorld = iHomeWorld;
-            bestFriend = iBestFriend;
-            mortalEnemy = iMortalEnemy;
-            funFact = iFunFact;
-        }
-
-        //Get methods for class variables
-        public string GetName()
-        {
-            return name;
-        }
-
-        public string GetFavoriteWeapon()
-        {
-            return favoriteWeapon;
-        }
-
-        public string GetHomeWorld()
-        {
-            return homeWorld;
-        }
-        
-        public string GetBestFriend()
-        {
-            return bestFriend;
-        }
-
-        public string GetMortalEnemy()
-        {
-            return mortalEnemy;
-        }
-
-        public string GetFunFact()
-        {
-            return funFact;
+            cSharpClass.Add(new Student("Female Corrin", "the Yato", "Valla", "Silas", "Anankanos", "She's confused as to why there's a male version of herself."));
         }
     }
 }
